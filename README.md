@@ -1,7 +1,6 @@
 **Project: Simple To-Do Web App**  
 
-**Overview**  
-
+**Overview : **  
 Welcome to our Simple To-Do Web App – the perfect playground to master the basics of web development! This application lets you practice fundamental operations like adding, editing, and deleting tasks using HTML, CSS, and JavaScript.
 
 Features
