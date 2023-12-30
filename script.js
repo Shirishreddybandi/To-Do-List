@@ -11,6 +11,7 @@ function addToList(){
     
     var textarea=document.createElement("textarea");
     textarea.value=document.getElementById("taskText").value;
+    document.getElementById("taskText").value="";
 
     var lineBreak=document.createElement("br");
 
