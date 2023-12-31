@@ -2,11 +2,7 @@ function autoExpand(element){
     element.style.height = 'auto';
     element.style.height = (element.scrollHeight) + 'px';
 }
-
-function addToList(){
-    var mainList= document.getElementById("myList");
-    var newList= document.createElement("li");
-    
+function makeForm(){
     var form= document.createElement("form");
     
     var textarea=document.createElement("textarea");
@@ -17,6 +13,14 @@ function addToList(){
 
     form.appendChild(textarea);
     form.appendChild(lineBreak);
+    return form;
+}
+    
+function addToList(){
+    var mainList= document.getElementById("myList");
+    var newList= document.createElement("li");
+    
+    var form = makeForm();
 
     newList.appendChild(form);
     mainList.appendChild(newList);
