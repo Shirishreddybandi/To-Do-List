@@ -59,13 +59,7 @@ function addToList(){
     newList.appendChild(form);
     mainList.appendChild(newList);
 
-    var form1=document.getElementById("newForm");
-
-    var textarea=document.createElement("textarea");
-    textarea.id="tasktext";
-    textarea.parentElement.placeholder="Take your note..";
-
-    form1.parentNode.replaceChild(textarea,form1);
+   
 
     return false;
     
