@@ -6,7 +6,7 @@ Welcome to our Simple To-Do Web App – the perfect playground to master the bas
 
 **Features:**  
 
-**Easy Task Management:** Create, update, and delete tasks effortlessly.  
+**Easy Task Management:** Create,update, and delete tasks effortlessly.  
 **User-Friendly Interface:** Enjoy a clean and intuitive design for a seamless experience.  
 **Learn and Apply:** Gain hands-on experience with essential web development technologies.  
 
